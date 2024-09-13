@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Gaming Blog</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts -->
+<link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!-- Header Starts Here -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.php"><img src="images/logo.png" alt=""></a>
+		</div>
+		<span class="menu"></span>
+		<div class="navigation">
+			<ul class="navig cl-effect-3" >
+				<li><a href="index.php">Home</a></li>
+				<li><a href="games.php">Games</a></li>
+				<li><a href="blog.php">Blog</a></li>
+				<li><a href="features.php">Features</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
+			<!--<div class="search-bar">
+					<input type="text" placeholder="Search" required="" />
+					<input type="submit" value="" />
+			</div>-->
+			<script>
+				$( "span.menu" ).click(function() {
+				  $( ".navigation" ).slideToggle( "slow", function() {
+				    // Animation complete.
+				  });
+				});
+			</script>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- Header Ends Here -->
+<!-- Games Page Starts here -->
+<div class="games">
+	<div class="container">
+		<div class="page-path">
+			<ul class="path-list"><br><br><br><br>
+				<li><a href="index.php">Home</a></li>&nbsp;&nbsp;/&nbsp;&nbsp;
+				<li class="act">Features</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="blog-content">
+			<h3 class="page-header">About us</h3>
+			<div class="about-top">
+				<img src="images/abt.jpg" height="300px" width="300px" alt="">
+				<div class="about-details">
+					<h4>This site is dedicated to The shooting game franchize Call of Duty which is owned by the company activision </h4>
+					<p>This website is run and maintained by fans of the Call of duty games and its under no advertisement company. on this site you will find many things that might help you enhance or improve the experience of an individual playing the game...</p>
+					<a href="#">More</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<h3 class="page-header">What we do</h3>
+			<p>This site is new and has been launched not too long ago and it is only dedicated to the betterment of the fan community of the call of duty franchize. There has been a lot of games that have been released in the past years and on this site you will find information regarding all of those games whether it is information about maps, weapons or hidden locations that you might not be aware of</p>
+
+			<p>Not only is there information about what the games include but there is also information from people playing the game or have been playing the game for a long time which means that the information that you get will be unique and reliable from someone who has invested alot of time into this franchize. </p>
+
+			<p>Here you will find video clips of player game play which they might think is exceptional or comedic as well as information about what weapons to use in which update depending on the platform you are playing on or are planning to play on, all in all this is a potential safe space for users who might be hesitant to ask for any information about the games without feeling any judgment. </p>
+		</div>
+		<div class="blog-sidebar">
+			<h3 class="page-header">Top Features</h3>
+			<div class="fetures">
+				<img src="images/fet.jpg" alt="">
+				<div class="caption">
+					<a href="#">Play Now</a>
+				</div>
+			</div>
+			<div class="fetures">
+				<img src="images/fet2.jpg" alt="">
+				<div class="caption">
+					<a href="#">Play Now</a>
+				</div>
+			</div>
+			<div class="fetures">
+				<img src="images/fet3.jpg" alt="">
+				<div class="caption">
+					<a href="#">Play Now</a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- What New Part Endss Here -->
+
+<!-- Footer Starts Here -->
+<div class="footer">
+	<div class="container">
+		<ul class="social">
+			<li><i class="fa"></i></li>
+			<li><i class="fb"></i></li>
+			<li><i class="fc"></i></li>
+		</ul>
+		<p>Design by Parabhjot Singh</p>
+	</div>
+	
+</div>
+<!-- Footer Ends Here -->
+</body>
+</html>
